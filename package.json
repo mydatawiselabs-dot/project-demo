@@ -1,9 +1,10 @@
 
 {
-  "name": "company-site",
+  "name": "project-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mydatawiselabs-dot.github.io/project-demo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
