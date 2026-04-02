@@ -1,14 +1,13 @@
-
 {
-  "name": "project-demo",
+  "name": "company-site",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mydatawiselabs-dot.github.io/project-demo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,5 +16,17 @@
   "devDependencies": {
     "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
